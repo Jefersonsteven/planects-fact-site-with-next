@@ -34,10 +34,11 @@
   }
 
    /*STYLES TEAM*/
-  .aboutCardContainer{
+   .aboutCardContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    grid-auto-rows: minmax(300px, auto); 
     margin-top: 20px;
   }
   
@@ -54,8 +55,8 @@
   }
   
   .aboutImage{
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin-top: 20px;
   }
@@ -88,3 +89,28 @@
     height: 2px;
     background-color: #0d4491;
   }
+  .github{
+    width: 35px;
+  }
+  .linkedin{
+    height: 40px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .aboutCardContainer {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .cardInfoTeam {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
