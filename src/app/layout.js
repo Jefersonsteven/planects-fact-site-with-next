@@ -1,8 +1,8 @@
+import "normalize.css";
 import "./globals.css";
-import { Antonio, League_Spartan } from "next/font/google";
+import { Antonio } from "next/font/google";
 
 const antonio = Antonio({ subsets: ["latin"] });
-const leagueSpartan = League_Spartan({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Planets Fact Sites",
