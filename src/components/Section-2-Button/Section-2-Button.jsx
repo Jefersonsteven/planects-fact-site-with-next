@@ -7,7 +7,7 @@ const Section2Button = ({ info, date }) => {
   return (
     <div className={styles.containerInfo}>
       <p className={styles.textInfo}>{info}</p>
-      <p className={(styles.dataInfo, antonio.className)}>{date}</p>
+      <p className={styles.dataInfo}>{date}</p>
     </div>
   );
 };
