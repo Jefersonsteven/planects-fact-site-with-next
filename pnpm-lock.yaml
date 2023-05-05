@@ -10,6 +10,9 @@ dependencies:
   next:
     specifier: 13.4.0
     version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
+  normalize.css:
+    specifier: ^8.0.1
+    version: 8.0.1
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -1663,6 +1666,10 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: false
+
+  /normalize.css@8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
     dev: false
 
   /npm-run-path@4.0.1:
