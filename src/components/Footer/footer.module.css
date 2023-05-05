@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: grey;
+}
+
+.derechos{
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+}
+
+.link{  
+    text-decoration: none;
+    color: black;
+}
+
+.image{
+    height: 50px;
+    background-color: greenyellow;
+    margin: 0;
+}
