@@ -1,0 +1,48 @@
+.containerInfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  mix-blend-mode: normal;
+
+  border: 1px solid red;
+}
+
+.textInfo {
+  opacity: 1;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 16px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.727273px;
+  text-transform: uppercase;
+
+  color: black;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.dataInfo {
+  opacity: 1;
+  margin-top: 13px;
+  margin-bottom: 9px;
+  margin-right: 24px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+}
