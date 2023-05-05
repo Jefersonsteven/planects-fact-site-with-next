@@ -1,0 +1,90 @@
+ /*GENERAL STYLES*/
+  .about{
+    text-align: center;
+  }
+  .aboutContainer{
+    background-image: url("https://img.freepik.com/premium-photo/working-tools-many-working-tools-wooden-background_220925-1960.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /*STYLES INFO TOOLSMATCH*/
+  .aboutInfoApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .aboutTittle{
+    padding-top: 20px;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+  }
+  .aboutSubTittle{
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    width: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 50px 50px;
+    color: #fff;
+  }
+
+   /*STYLES TEAM*/
+  .aboutCardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .cardInfoTeam{
+    background-color: lightblue;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .aboutName{
+    margin-top: 20px;
+  }
+  
+  .aboutLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .aboutLinks a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    position: relative;
+    color: #0d4491;
+  }
+  
+  .aboutLinks a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: #0d4491;
+  }
