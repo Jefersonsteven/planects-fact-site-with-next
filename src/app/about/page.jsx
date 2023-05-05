@@ -31,7 +31,7 @@ export default function Page() {
   return (
     <div className={style.aboutContainer}>
       <div className={style.aboutInfoApp}>
-          <h1 className={style.aboutTittle}>The Planets</h1>
+          <Link href='/' className={style.aboutTittle}>The Planets</Link>
           <p className={style.aboutSubTittle}>
           Una web application que ofrece el servicio de Alquiler y venta
           de herramientas usadas entre vecinos es una plataforma en
@@ -42,7 +42,6 @@ export default function Page() {
       <div className={style.aboutCardContainer}>
         {team.map(person => (
           <div key={person.name} className={style.cardInfoTeam}>
-             
               <h2 className={style.aboutName}>{person.name}</h2>
               <div className={style.aboutLinks}>
                 <Link href='/'>github</Link>
