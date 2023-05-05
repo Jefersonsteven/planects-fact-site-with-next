@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer/footer";
 import Image from "next/image";
 import Section2 from "@/components/Section-2/Section-2";
 import data from "../data.json";
@@ -18,6 +19,8 @@ export default function Home() {
       {/*       {planetsInfo.map((planet) => {
         return <Section2 key={planet.name} info={planet} />;
       })} */}
+      <h1>Home</h1>
+      <Footer />
     </div>
   );
 }
