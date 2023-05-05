@@ -34,10 +34,11 @@
   }
 
    /*STYLES TEAM*/
-  .aboutCardContainer{
+   .aboutCardContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    grid-auto-rows: minmax(300px, auto); 
     margin-top: 20px;
   }
   
@@ -94,3 +95,22 @@
   .linkedin{
     height: 40px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .aboutCardContainer {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .cardInfoTeam {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

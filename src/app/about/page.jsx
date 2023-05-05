@@ -71,10 +71,10 @@ export default function Page() {
               <h2 className={style.aboutName}>{person.name}</h2>
               <div className={style.aboutLinks}>
                 <a href='https://github.com' target='_blanket'>
-                  <img className={style.github} src='/images-view-about/github.png' alt='GitHub' />
+                  <image className={style.github} src='/images-view-about/github.png' alt='GitHub'></image>
                 </a>
                 <a href='https://linkedin.com' target='_blanket'>
-                  <img className={style.linkedin} src='/images-view-about/linkedin.png' alt='LinkedIn' />
+                  <image className={style.linkedin} src='/images-view-about/linkedin.png' alt='LinkedIn'></image>
                 </a>
               </div>
           </div>
