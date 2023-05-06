@@ -1,0 +1,52 @@
+.menu {
+    border: 1px solid rgb(132, 132, 132);
+    display: flex;
+    background-color: rgb(3, 0, 52);
+    justify-content: space-around;
+}
+
+.container {
+  display: inline-block;
+  padding: 3px;
+  margin-right: 12px;
+  border-bottom: 3px solid transparent;
+  color: white;
+}
+
+.container:hover {
+    border-bottom: 3px solid #419EBB;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        color: rgb(255, 255, 255);
+        border: 1px solid black;
+        padding: 0px;
+        margin-bottom: 10px;
+        background-color: rgb(0, 0, 45);
+        
+        align-items: left;
+        justify-content: left;
+        flex-direction: column;
+        
+    }
+    
+    .container span {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    
+    .container:hover{
+        background-color: #419EBB;
+    }
+    
+    .menu {
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: none;
+        flex-direction: column
+    };
+  }
