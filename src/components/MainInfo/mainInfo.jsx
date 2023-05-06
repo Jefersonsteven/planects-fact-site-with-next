@@ -14,8 +14,8 @@ const MainInfo = ({ info }) => {
   return (
     <section>
       <div>
-        <MainSectionImage image={image} width={300} height={300} />
-        {submenu === 'geology' && <MainSectionImage image={info.images.geology} width={100} height={120} />}
+        <MainSectionImage image={image} width={200} height={200} />
+        {submenu === 'geology' && <MainSectionImage image={info.images.geology} width={80} height={100} />}
       </div>
       <MainSectionInfo info={info} submenu={submenu} />
       <Section2 info={info} />
