@@ -15,10 +15,6 @@ export default function Home() {
         info={planetInfo.find((planet) => planet.name === planetName)}
       />
 
-      {/*       {planetsInfo.map((planet) => {
-        return <Section2 key={planet.name} info={planet} />;
-      })} */}
-      <h1>Home</h1>
       <Footer />
     </div>
   );
