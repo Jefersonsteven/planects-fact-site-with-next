@@ -1,9 +1,10 @@
+"use client";
 
+import Footer from "@/components/Footer/footer";
 import MainInfo from "@/components/MainInfo/mainInfo";
 import data from "../data.json";
 import { useState } from "react";
 import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   const [planetInfo] = useState(data);
@@ -21,4 +22,4 @@ export default function Home() {
       <Footer />
     </div>
   );
-};
+}
