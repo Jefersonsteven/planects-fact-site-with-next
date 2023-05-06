@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-export function MainSectionImage({ image }) {
+export function MainSectionImage({ image, width, height }) {
   return (
     <div>
       <figure>
-        <Image width={300} height={300} src={image} alt="nan" />
+        <Image width={width} height={height} src={image} alt="nan" />
       </figure>
     </div>
   );
