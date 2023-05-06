@@ -54,7 +54,68 @@
 
 
 
+@media (min-width: 768px) {
 
+    .Header {
+        flex-direction: column;
+    }
+
+    .Header figure {
+        display: none;
+    }
+
+    .Menu {
+        position: relative;
+        top: 0;
+    }
+
+    .ListMenu li div div {
+        display: none;
+    }
+
+    .ListMenu li div p {
+        font-size: 16px;
+    }
+
+    .ListMenu li span {
+        display: none;
+    }
+
+    .ListMenu li {
+        border: none;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .ListMenu li > div {
+        height: auto;
+    }
+
+    .ListMenu {
+        justify-content: space-between;
+    }
+
+    .Close {
+        display: flex;
+    }
+
+    .OpenMenu {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 1000px) {
+
+    .Header {
+        flex-direction: row;
+    }
+
+    .Menu {
+        max-width: 60%;
+    }
+
+}
 
 
 
