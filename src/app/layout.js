@@ -2,6 +2,7 @@ import "normalize.css";
 import "./globals.css";
 import { Antonio } from "next/font/google";
 
+
 const antonio = Antonio({ subsets: ["latin"] });
 
 export const metadata = {

@@ -1,0 +1,121 @@
+.OpenMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 30px 24px;
+}
+
+.Close {
+    display: none;
+}
+
+.ListMenu li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+.ListMenu li > div{
+    height: 67px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.36364px;
+}
+
+.ListMenu li div div{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.459);
+    position: relative;
+}
+
+.Menu {
+    position: fixed;
+    background-color: var(--color-principal);
+    top: 62px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .Header {
+        flex-direction: column;
+    }
+
+    .Header figure {
+        display: none;
+    }
+
+    .Menu {
+        position: relative;
+        top: 0;
+    }
+
+    .ListMenu li div div {
+        display: none;
+    }
+
+    .ListMenu li div p {
+        font-size: 16px;
+    }
+
+    .ListMenu li span {
+        display: none;
+    }
+
+    .ListMenu li {
+        border: none;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .ListMenu li > div {
+        height: auto;
+    }
+
+    .ListMenu {
+        justify-content: space-between;
+    }
+
+    .Close {
+        display: flex;
+    }
+
+    .OpenMenu {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 1000px) {
+
+    .Header {
+        flex-direction: row;
+    }
+
+    .Menu {
+        max-width: 60%;
+    }
+
+}
+
+
+

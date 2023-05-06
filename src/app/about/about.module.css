@@ -3,7 +3,7 @@
     text-align: center;
   }
   .aboutContainer{
-    background-image: url("https://img.freepik.com/premium-photo/working-tools-many-working-tools-wooden-background_220925-1960.jpg");
+    background-image: url("https://pymstatic.com/30783/conversions/planetas-sistema-solar-wide.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@
     color: black;
   }
   .aboutSubTittle{
-    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background: linear-gradient(to right, #505652, #c9a655, #311c8f);
     width: 500px;
     display: inline-block;
     border-radius: 10px;
@@ -34,15 +34,16 @@
   }
 
    /*STYLES TEAM*/
-  .aboutCardContainer{
+   .aboutCardContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    grid-auto-rows: minmax(300px, auto); 
     margin-top: 20px;
   }
   
   .cardInfoTeam{
-    background-color: lightblue;
+    background-color: black;
     margin-top: 20px;
     border-radius: 50%;
     width: 300px;
@@ -94,3 +95,22 @@
   .linkedin{
     height: 40px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .aboutCardContainer {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .cardInfoTeam {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

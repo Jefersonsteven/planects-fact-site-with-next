@@ -45,17 +45,12 @@ export default function Page() {
       <div className={style.aboutInfoApp}>
           <Link href='/' className={style.aboutTittle}>The Planets</Link>
           <p className={style.aboutSubTittle}>
-          Una web application que ofrece el servicio de Alquiler y venta
-          de herramientas usadas entre vecinos es una plataforma en
-          línea que permite a los usuarios publicar y buscar herramientas
-          que estén disponibles para alquilar o vender dentro de su vecindario 
-          o comunidad cercana.
-          <br/>
-          <br/>
-          Somos un equipo de profesionales apasionados por el desarrollo de herramientas 
-          tecnológicas que mejoren la vida de las personas. Trabajamos juntos para crear 
-          soluciones innovadoras y eficaces que resuelvan los desafíos actuales del 
-          mundo digital.
+          A planet is a large, rounded astronomical body that is neither a star 
+          nor its remnant. The best available theory of planet formation is the 
+          nebular hypothesis, which posits that an interstellar cloud collapses 
+          out of a nebula to create a young protostar orbited by a protoplanetary disk.
+          <br />
+          Colaboration by:
           </p>
       </div>
       <div className={style.aboutCardContainer}>
@@ -71,10 +66,10 @@ export default function Page() {
               <h2 className={style.aboutName}>{person.name}</h2>
               <div className={style.aboutLinks}>
                 <a href='https://github.com' target='_blanket'>
-                  <img className={style.github} src='/images-view-about/github.png' alt='GitHub' />
+                  <Image className={style.github} src='/images-view-about/github.png' alt='GitHub' width={35} height={40} />
                 </a>
                 <a href='https://linkedin.com' target='_blanket'>
-                  <img className={style.linkedin} src='/images-view-about/linkedin.png' alt='LinkedIn' />
+                  <Image className={style.linkedin} src='/images-view-about/linkedin.png' alt='LinkedIn'width={50} height={40} />
                 </a>
               </div>
           </div>
