@@ -1,17 +1,24 @@
 "use client"
 import style from './MenuView.module.css';
+import React,{ useState } from 'react';
 
-export default function Menu() {
+
+export default function Menu({setSubmenu}) {
+
+    const handleOptionClick = (option) => {
+        setSubmenu(option);
+        console.log(`Clickeaste ${option}`)
+    };
     
     return(
         <div className={style.menu}>
-            <div className={style.container}>
-            <p onClick={()=>console.log("click")}><span>01</span> OVERVIEW </p>
+            <div onClick={()=>handleOptionClick('Overview')} className={style.container}>
+            <p><span>01</span> OVERVIEW </p>
             </div>
-            <div className={style.container}>
+            <div onClick={()=>console.log("Structure")} className={style.container}>
             <p><span>02</span> INTERNAL STRUCTURE </p>
             </div>
-            <div className={style.container}>
+            <div onClick={()=>console.log("Surface")} className={style.container}>
             <p><span>03</span> SURFACE GEOLOGY </p>
             </div>
         </div>
